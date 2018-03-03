@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 26
     buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "com.dlohaiti.dlokiosk"
-        minSdkVersion 15
-        targetSdkVersion 15
+        minSdkVersion 26
+        targetSdkVersion 26
         multiDexEnabled true
     }
 
@@ -17,6 +17,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+    dexOptions {
+        javaMaxHeapSize "2g"
     }
 }
 dependencies {
