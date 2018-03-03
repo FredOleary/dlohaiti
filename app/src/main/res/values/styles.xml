@@ -1,0 +1,86 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="horizontal_rule">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#ccc</item>
+    </style>
+
+    <style name="measurement_heading">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="measurement_location">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="home_screen_button">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="right_grid">
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:columnWidth">100dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:numColumns">2</item>
+        <item name="android:verticalSpacing">20dp</item>
+        <item name="android:horizontalSpacing">20dp</item>
+        <item name="android:background">@drawable/gray_box</item>
+        <item name="android:stretchMode">columnWidth</item>
+    </style>
+
+  <style name="left_grid">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:columnWidth">100dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:numColumns">2</item>
+        <item name="android:verticalSpacing">20dp</item>
+        <item name="android:horizontalSpacing">20dp</item>
+        <item name="android:background">@drawable/gray_box</item>
+        <item name="android:stretchMode">columnWidth</item>
+  </style>
+
+</resources>

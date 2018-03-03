@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "com.dlohaiti.dlokiosk"
+        minSdkVersion 15
+        targetSdkVersion 15
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+dependencies {
+    //    compile 'org.junit:4.8.2'
+    implementation 'junit:junit:4.12'
+    implementation 'org.robolectric:robolectric:2.1.1'
+//    implementation 'org.mockito:mockito-all:1.9.5'
+//    implementation 'com.google.inject:guice:3.0'
+    implementation 'org.roboguice:roboguice:2.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.1.2'
+    implementation 'org.springframework.android:spring-android-rest-template:1.0.1.RELEASE'
+    implementation 'org.apache.commons:commons-lang3:3.1'
+    implementation 'org.powermock:powermock-module-junit4:1.5'
+    implementation 'org.powermock:powermock-api-mockito:1.5'
+    implementation 'org.slf4j:slf4j-android:1.6.1-RC1'
+    implementation 'joda-time:joda-time:2.2'
+}
