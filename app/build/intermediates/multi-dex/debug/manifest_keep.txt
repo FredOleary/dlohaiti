@@ -1,3 +1,0 @@
-# Referenced at /Users/fredoleary/safe_water4/remote-monitoring-system/dlokiosk/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14
--keep class android.support.multidex.MultiDexApplication { <init>(...); }
-

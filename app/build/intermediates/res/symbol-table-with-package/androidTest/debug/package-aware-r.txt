@@ -1,1 +1,0 @@
-com.dlohaiti.dlokiosk.test
